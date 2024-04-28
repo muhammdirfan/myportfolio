@@ -2,12 +2,12 @@
 
 const CONFIG = {
   github: {
-    username: 'arifszn', // Your GitHub org/user name. (This is the only required config)
+    username: 'muhammdirfan', // Your GitHub org/user name. (This is the only required config)
   },
   /**
-   * If you are deploying to https://<USERNAME>.github.io/, for example your repository is at https://github.com/arifszn/arifszn.github.io, set base to '/'.
+   * If you are deploying to https://<USERNAME>.github.io/, for example your repository is at https://github.com/muhammdirfan/muhammdirfan.github.io, set base to '/'.
    * If you are deploying to https://<USERNAME>.github.io/<REPO_NAME>/,
-   * for example your repository is at https://github.com/arifszn/portfolio, then set base to '/portfolio/'.
+   * for example your repository is at https://github.com/muhammdirfan/portfolio, then set base to '/portfolio/'.
    */
   base: '/gitprofile/',
   projects: {
@@ -20,12 +20,12 @@ const CONFIG = {
         limit: 8, // How many projects to display.
         exclude: {
           forks: false, // Forked projects will not be displayed if set to true.
-          projects: [], // These projects will not be displayed. example: ['arifszn/my-project1', 'arifszn/my-project2']
+          projects: [], // These projects will not be displayed. example: ['muhammdirfan/my-project1', 'muhammdirfan/my-project2']
         },
       },
       manual: {
         // Properties for manually specifying projects
-        projects: ['arifszn/gitprofile', 'arifszn/pandora'], // List of repository names to display. example: ['arifszn/my-project1', 'arifszn/my-project2']
+        projects: ['muhammdirfan/gitprofile', 'muhammdirfan/pandora'], // List of repository names to display. example: ['muhammdirfan/my-project1', 'muhammdirfan/my-project2']
       },
     },
     external: {
@@ -33,51 +33,83 @@ const CONFIG = {
       // To hide the `External Projects` section, keep it empty.
       projects: [
         {
-          title: 'Project Name',
+          title: 'synatxroot',
           description:
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
+            'Syntaxroot is the website of the IT company that offers IT services, including software development, web development, mobile app development, product design, IT Consultation, quality assurance, and helping clients choose them right platform to build their products.',
           imageUrl:
             'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
-          link: 'https://example.com',
+          link: 'https://www.syntaxroot.com/',
         },
         {
-          title: 'Project Name',
+          title: 'smacty.com',
           description:
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
+            'New type of cloud infrastructure is enabling device management, development and sales. Gain better insight in sales, upsell features and connect it to your development.',
           imageUrl:
             'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
-          link: 'https://example.com',
+          link: 'https://smacty.com',
+        },
+        {
+          title: 'CANULO HealthCare System',
+          description:
+            'Canulo is the dashboard for healthcare mobile application, it can handle professionals, Establishments, and medical students.',
+          imageUrl:
+            'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
+          link: 'canulo-dashboard.vercel.app/admin/default',
+        },
+        {
+          title: 'HealthCare system website',
+          description:
+            'Canulo is a healthcare website that showcase information about healthcare mobile and web applications where users can get appointments from doctors and doctors can post their post on the website.',
+          imageUrl:
+            'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
+          link: 'canuloweb.vercel.app/',
+        },
+        {
+          title: 'Broshall Associates',
+          description:
+            'Broshall Associates Pvt Ltd Gilgit Baltistan deals with Government Contractors, Engineers, Builders, Constructors, Property Dealers, Land Developers, Minerals, Minners and General Order Supplier',
+          imageUrl:
+            'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
+          link: 'https://broshall-associates-wine.vercel.app/',
+        },
+        {
+          title: 'MedsTown Dashboard',
+          description:
+            'MedsTown Dashboard is a web application where users can get appointments with doctors and doctors can post their posts on the website',
+          imageUrl:
+            'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
+          link: 'https://medsdashboard.vercel.app/admin/dashboard',
         },
       ],
     },
   },
   seo: {
-    title: 'Portfolio of Muhammad Irfan',
+    title: 'Muhammad Irfan',
     description: '',
     imageURL: '',
   },
   social: {
-    linkedin: 'muhammad-irfan',
-    twitter: 'arif_szn',
-    mastodon: 'arifszn@mastodon.social',
+    linkedin: 'muhammad-irfan445',
+    twitter: 'Muhamma07089743',
+    mastodon: '/~0198e443080bd92b02?s=1110580755057594368',
     researchGate: '',
     facebook: '',
     instagram: '',
     youtube: '', // example: 'pewdiepie'
     dribbble: '',
     behance: '',
-    medium: 'arifszn',
-    dev: 'arifszn',
-    stackoverflow: '', // example: '1/jeff-atwood'
+    medium: '',
+    dev: '',
+    stackoverflow: '16734776/muhammad-irfan', // example: '1/jeff-atwood'
     skype: '',
     telegram: '',
-    website: 'https://www.arifszn.com',
-    phone: '',
-    email: 'arifulalamszn@gmail.com',
+    website: 'https://www.muhammdirfan.com',
+    phone: '+923120973534',
+    email: 'muhammadirfaan048@gmail.com',
   },
   resume: {
     fileUrl:
-      'https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf', // Empty fileUrl will hide the `Download Resume` button.
+      'https://europa.eu/europass/eportfolio/screen/share/ce8c37bf-a836-44c1-8f99-718ebb13076e?lang=en', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
     'PHP',
@@ -97,40 +129,45 @@ const CONFIG = {
   ],
   experiences: [
     {
-      company: 'Company Name',
-      position: 'Position',
-      from: 'September 2021',
-      to: 'Present',
-      companyLink: 'https://example.com',
+      company: 'Zumurs Tech',
+      position: 'Front-End developer',
+      from: 'January 2019',
+      to: 'September 2021',
+      companyLink: '',
     },
     {
-      company: 'Company Name',
-      position: 'Position',
-      from: 'July 2019',
-      to: 'August 2021',
-      companyLink: 'https://example.com',
+      company: 'NorthCodex IT Solutions',
+      position: 'Sr.Front-End developer',
+      from: 'September 2021',
+      to: 'September 2023',
+      companyLink: 'https://northcodex.com/',
+    },
+     {
+      company: 'Genesis Engineering',
+      position: 'Software developer',
+      from: 'December 2023',
+      to: 'Present',
+      companyLink: 'https://www.genesisengr.com/',
     },
   ],
   certifications: [
     {
-      name: 'Lorem ipsum',
-      body: 'Lorem ipsum dolor sit amet',
-      year: 'March 2022',
-      link: 'https://example.com',
+      name: 'Interactivity with JavaScript',
+      year: 'October 2020',
+      link: 'https://www.coursera.org/account/accomplishments/certificate/XXMY75J5UADY',
+    },
+    {
+      name: 'Front-End Web Development with React',
+      year: 'April 2021',
+      link: 'https://www.coursera.org/account/accomplishments/certificate/AHF5M8MHCWR8',
     },
   ],
   educations: [
     {
-      institution: 'Institution Name',
-      degree: 'Degree',
-      from: '2015',
-      to: '2019',
-    },
-    {
-      institution: 'Institution Name',
-      degree: 'Degree',
-      from: '2012',
-      to: '2014',
+      institution: 'Karakoram International University Gilgit-Baltistan',
+      degree: "Bacholar's In Information Technology",
+      from: '2018',
+      to: '2022',
     },
   ],
   publications: [
@@ -156,8 +193,8 @@ const CONFIG = {
   // Display articles from your medium or dev account. (Optional)
   blog: {
     source: 'dev', // medium | dev
-    username: 'arifszn', // to hide blog section, keep it empty
-    limit: 2, // How many articles to display. Max is 10.
+    username: 'muhammdirfan', // to hide blog section, keep it empty
+    limit: 4, // How many articles to display. Max is 10.
   },
   googleAnalytics: {
     id: '', // GA3 tracking id/GA4 tag id UA-XXXXXXXXX-X | G-XXXXXXXXXX
@@ -232,7 +269,7 @@ const CONFIG = {
 
   // Optional Footer. Supports plain text or HTML.
   footer: `Made with <a 
-      class="text-primary" href="https://github.com/arifszn/gitprofile"
+      class="text-primary" href="https://github.com/muhammdirfan/gitprofile"
       target="_blank"
       rel="noreferrer"
     >GitProfile</a> and ❤️`,

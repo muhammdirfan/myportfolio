@@ -163,12 +163,12 @@ const DetailsCard = ({ profile, loading, social, github }: Props) => {
                   link={`https://twitter.com/${social.twitter}`}
                 />
               )}
-              {social?.mastodon && (
+               {social?.mastodon && (
                 <ListItem
                   icon={<FaMastodon />}
-                  title="Mastodon:"
-                  value={getFormattedMastodonValue(social.mastodon, false)}
-                  link={getFormattedMastodonValue(social.mastodon, true)}
+                  title="Upwork:"
+                  value="Muhammad Irfan"
+                  link={`https://www.upwork.com/freelancers${social.mastodon}`}
                 />
               )}
               {social?.linkedin && (
